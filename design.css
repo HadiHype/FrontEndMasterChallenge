@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Kumbh sans", sans-serif;
+  color: darkgrey;
+  background: url(/img/bg-pattern-bottom.svg) bottom -500px right -300px
+      no-repeat,
+    url(/img/bg-pattern-top.svg) top -500px left -400px no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+
+.main {
+  margin: 35rem;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: darkslateblue;
+  text-align: center;
+}
+
+.Country {
+  color: black;
+  flex-direction: column;
+}
+
+.card {
+  width: 50rem;
+  height: 32rem;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 3px;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
+.banner {
+  background: url(/img/bg-pattern-card.svg);
+  height: 12rem;
+  width: auto;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
+
+.victor {
+  border-radius: 50%;
+  border: solid 0.4rem white;
+  margin: -5rem auto auto 20rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+  color: black;
+}
+
+.Nice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+  font-weight: 700;
+  color: black;
+}
+
+hr {
+  margin: auto;
+  width: 15rem;
+}
+
+.Under {
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: grey;
+}
